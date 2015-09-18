@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefeb"
+    android:padding="5dip"
+    tools:context=".demo.MainActivity" >
+
+    <com.svenkapudija.fancychart.FancyChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="300dip" >
+    </com.svenkapudija.fancychart.FancyChart>
+
+</RelativeLayout>
